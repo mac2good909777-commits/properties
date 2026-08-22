@@ -85,6 +85,19 @@ section{padding:76px 0}
 .mk-punch{margin-top:36px;text-align:center;font-size:clamp(18px,2.8vw,24px);font-weight:900;color:var(--forest);letter-spacing:1.5px}
 .mk-punch em{color:var(--gold);font-style:normal}
 
+/* cluster */
+.cl-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:34px}
+.cl-stat{background:#fff;border:1px solid var(--border);border-radius:3px;padding:26px 16px;text-align:center}
+.cl-stat .v{font-size:clamp(22px,3.2vw,32px);font-weight:900;color:var(--forest);line-height:1.2}
+.cl-stat .v small{font-size:.55em;font-weight:700;color:var(--gold)}
+.cl-stat .k{font-size:14px;color:var(--muted);margin-top:8px;letter-spacing:1px}
+.cl-copy{max-width:860px;margin:0 auto;font-size:16px;line-height:2;color:#3d463c}
+.cl-copy b{color:var(--forest)}
+.cl-copy .hl{background:linear-gradient(transparent 60%,rgba(192,164,52,.35) 60%);font-weight:700}
+.cl-punch{margin-top:26px;text-align:center;font-size:clamp(17px,2.6vw,22px);font-weight:900;color:var(--forest);letter-spacing:1.5px}
+.cl-punch em{color:var(--gold);font-style:normal}
+@media(max-width:820px){.cl-stats{grid-template-columns:1fr 1fr}}
+
 /* trend timeline */
 .trend-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:8px}
 .step{background:#fff;border:1px solid var(--border);border-radius:3px;padding:22px 18px;text-align:center;position:relative}
@@ -248,21 +261,24 @@ footer .disc{max-width:760px;margin:0 auto 10px;line-height:1.8;color:rgba(255,2
   </div>
 </section>
 
-<!-- ================= TREND ================= -->
 <section>
   <div class="wrap">
     <div class="sec-head">
-      <div class="en">AREA TRACK RECORD</div>
-      <h2>大肚王田生活圈　十年行情軌跡</h2>
-      <div class="lead">指標企業以真金白銀進場，區域行情十年一路上行。</div>
+      <div class="en">INDUSTRIAL CLUSTER</div>
+      <h2>影響全世界的 60 公里　大肚山黃金縱谷</h2>
+      <div class="lead">全球單位面積產值最高、密度最高的精密機械聚落——本案就位於縱谷南端、王田交流道門戶。</div>
     </div>
-    <div class="trend-steps">
-      <div class="step"><div class="yr">2015</div><div class="pv">7.1<small> 萬/坪</small></div><div class="who">文昌段乙工基期</div></div>
-      <div class="step"><div class="yr">2019</div><div class="pv">12.5<small> 萬/坪</small></div><div class="who">全家便利商店<br>11,163 坪物流中心</div></div>
-      <div class="step"><div class="yr">2021</div><div class="pv">15<small> 萬/坪</small></div><div class="who">全聯實業<br>大肚倉儲進場</div></div>
-      <div class="step hot"><div class="yr">2024</div><div class="pv">26.8<small> 萬/坪</small></div><div class="who">文昌段乙工<br>近期成交水準</div></div>
+    <div class="cl-stats">
+      <div class="cl-stat"><div class="v">1,500<small>+ 家</small></div><div class="k">精密機械企業聚集</div></div>
+      <div class="cl-stat"><div class="v">30<small> 萬+</small></div><div class="k">產業就業人口</div></div>
+      <div class="cl-stat"><div class="v">近兆元</div><div class="k">聚落年產值</div></div>
+      <div class="cl-stat"><div class="v">全球<small>第一</small></div><div class="k">精密機械密度</div></div>
     </div>
-    <div class="mk-note">資料彙整自實價登錄成交案例；十年間區域乙工行情累計上漲逾 270%。</div>
+    <div class="cl-copy">
+      從大肚山臺地沿國道一號延伸的 <span class="hl">60 公里黃金縱谷</span>，聚集上千家精密機械與上下游供應鏈——全球前四大半導體設備商都需要這裡的零組件。<b>本案立於縱谷南端門戶</b>：北接台中工業區、精密機械園區與中科聚落，西連台中港與彰濱能源產業帶，經王田交流道 2.3 公里南來北往。<br>
+      在地實證同樣有力：<b>全家 11,163 坪物流中心、全聯倉儲</b>先後選址大肚設點，製造與物流雙聚落成形；聚落帶動下，區內乙工行情十年累計上漲逾 270%。
+    </div>
+    <div class="cl-punch">進駐黃金縱谷的門票逐年縮量──<em>大面積乙工，買一塊，少一塊。</em></div>
   </div>
 </section>
 
