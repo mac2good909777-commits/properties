@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>台中工業區・樓層式千坪廠辦招租｜瑞禾不動產</title>
-<meta name="description" content="台中工業區主幹道樓層式廠辦招租：3F/5F/6F/7F 合計約3,464坪，卸貨碼頭＋2噸貨梯＋5米樓高，7F整層即可承租。">
+<meta name="description" content="台中工業區樓層式廠辦招租：倉儲物流・科技廠辦，國道1號台中交流道約3公里，3F/5F/6F/7F 合計約3,464坪，卸貨碼頭＋2噸貨梯＋5米樓高，7F整層即可承租。">
 <style>
 :root{
   --ink:#1a2332;--paper:#f7f8fa;--card:#ffffff;--line:#dde3ea;
@@ -48,6 +48,12 @@ h2{font-size:clamp(24px,3.6vw,34px);font-weight:900;letter-spacing:.06em;margin:
 .card h3{font-size:18px;margin-bottom:10px;letter-spacing:.05em}
 .card p{font-size:14.5px;color:var(--muted)}
 @media(max-width:760px){.cards{grid-template-columns:1fr}}
+/* transport strip */
+.transport{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:26px}
+.transport .titem{background:var(--navy);color:#fff;padding:14px 16px;display:flex;flex-direction:column;gap:2px}
+.transport .titem b{color:var(--gold);font-size:14px;letter-spacing:.1em}
+.transport .titem span{font-size:13.5px;color:#cdd8e6}
+@media(max-width:760px){.transport{grid-template-columns:repeat(2,1fr)}}
 /* FLOOR TABLE */
 .tbl-scroll{overflow-x:auto;margin-top:28px}
 table{width:100%;border-collapse:collapse;background:var(--card);min-width:640px}
@@ -88,9 +94,9 @@ footer b{color:#c3cfdf}
 
 <div class="hero">
   <div class="inner wrap">
-    <span class="badge">乙種工業區・合法廠辦</span>
+    <span class="badge">乙種工業區・倉儲物流・科技廠辦</span>
     <h1>台中工業區<br>樓層式千坪廠辦招租</h1>
-    <p class="sub">園區主幹道臨路 18 米｜卸貨碼頭＋2 噸貨梯｜7F 整層即可承租</p>
+    <p class="sub">國道1號台中交流道約 3 公里｜卸貨碼頭＋2 噸貨梯｜7F 整層即可承租</p>
     <div class="cta">
       <a class="btn btn-gold" href="tel:0953909777">☎ 0953-909-777 專案窗口</a>
       <a class="btn btn-line" href="#floors">查看樓層面積表</a>
@@ -110,12 +116,18 @@ footer b{color:#c3cfdf}
 <section>
   <div class="wrap">
     <p class="kicker">WHY　為什麼是台中工業區</p>
-    <h2>中部最成熟的綜合工業區，樓層式供給極稀有</h2>
-    <p class="lead">台中工業區廠商密度高、機能完整，供給型態以透天廠房為主——同時具備<b>卸貨碼頭、大噸位貨梯、大樓管理</b>的樓層式廠辦，屬區內稀有釋出。本案位於園區主幹道、臨路 18 米，板車直達，聯外快速銜接台灣大道與國道系統。</p>
+    <h2>與都會區無縫相接的成熟工業區，正處中部產業廊帶中軸</h2>
+    <p class="lead">台中工業區是中部最早成熟的綜合工業區，也是<b>離台中市中心最近的大型合法工業聚落</b>——台中精機、永進機械等指標廠商深耕於此。北上是中科台中園區，南接精密機械科技創新園區，沿大肚山科技走廊串起半導體、光電與工具機聚落；<b>一個據點，同時服務科技供應鏈與都會消費圈</b>。同時具備卸貨碼頭、大噸位貨梯、大樓管理的樓層式廠辦，屬區內稀有釋出。</p>
     <div class="cards">
-      <div class="card"><h3>物流機能完整</h3><p>一樓卸貨碼頭卸貨、2 噸貨梯（車廂 2.0×2.5×2.5 米）棧板直上，整層開放無隔間，動線自由規劃。</p></div>
-      <div class="card"><h3>企業門面等級</h3><p>挑高石材接待大廳、客梯 2 部、大樓式管理——倉儲、辦公、接待同棟整合，客戶來訪體面。</p></div>
-      <div class="card"><h3>合法乙工・規格實在</h3><p>乙種工業區合法使用，樓高使照 5 米（樑下約 4.2 米），地板載重 300~800kg/㎡（各層不同），倉儲、配銷、輕量加工皆宜。</p></div>
+      <div class="card"><h3>倉儲物流條件到位</h3><p>都會近郊千坪級合法倉儲最難尋。一樓卸貨碼頭、2 噸貨梯（車廂 2.0×2.5×2.5 米）棧板直上，整層開放樓板動線自由規劃——電商、3PL、配銷中心的即戰力空間。</p></div>
+      <div class="card"><h3>產業串流中點</h3><p>中科—台中工業區—精科—工具機聚落一線串接，供應商與客戶都在半小時圈內；台灣大道幹線西向直達台中港區，進出口動線順暢。</p></div>
+      <div class="card"><h3>科技廠辦定位</h3><p>挑高石材大廳、大樓式管理、客梯 2 部——研發辦公、檢測、輕量製程與倉儲同棟整合，是「廠」也是「總部門面」。</p></div>
+    </div>
+    <div class="transport">
+      <div class="titem"><b>國道 1 號</b><span>台中交流道 約 3 公里</span></div>
+      <div class="titem"><b>台 74 線</b><span>快速環線 串聯大台中</span></div>
+      <div class="titem"><b>台灣大道</b><span>東向市中心・西向台中港</span></div>
+      <div class="titem"><b>園區主幹道</b><span>臨路 18 米 板車直達</span></div>
     </div>
   </div>
 </section>
