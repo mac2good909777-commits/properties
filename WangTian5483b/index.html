@@ -312,6 +312,28 @@ footer .disc{max-width:760px;margin:0 auto 10px;line-height:1.8;color:rgba(255,2
 }
 @media(prefers-reduced-motion:reduce){.uh-btn{transition:none}}
 </style><style>
+/* ===== 統一「完整銷售報告書 備索」（由 layout.py 產生，勿手改） ===== */
+.uim{background:linear-gradient(160deg,#15211A 0%,#1D2C23 100%);color:#fff;padding:76px 22px}
+.uim-in{max-width:1040px;margin:0 auto}
+.uim-head{text-align:center;margin-bottom:34px}
+.uim-en{font-size:14px;letter-spacing:.24em;color:#D8BC55;font-weight:700;margin-bottom:10px}
+.uim-h2{font-family:"Noto Serif TC",serif;font-weight:700;font-size:clamp(24px,3.4vw,32px);
+  color:#fff;letter-spacing:.06em;margin:0}
+.uim-lead{margin:14px auto 0;font-size:16px;color:rgba(255,255,255,.72);max-width:60ch;line-height:1.8}
+.uim-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:22px}
+.uim-item{border:1px solid rgba(255,255,255,.14);border-radius:3px;padding:26px 20px;text-align:center}
+.uim-item .ic{width:34px;height:34px;margin:0 auto 12px;border:1px solid #C0A434;color:#D8BC55;
+  font-weight:900;font-size:16px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.uim-item h4{font-size:16px;font-weight:700;letter-spacing:.06em;margin:0 0 6px;color:#fff}
+.uim-item p{font-size:14.5px;color:rgba(255,255,255,.62);line-height:1.7;margin:0}
+.uim-note{text-align:center;font-size:clamp(18px,2.6vw,23px);font-weight:900;letter-spacing:.08em;
+  margin-top:30px;color:#fff}
+.uim-note em{font-style:normal;color:#D8BC55}
+@media(max-width:760px){
+  .uim{padding:56px 16px}
+  .uim-grid{grid-template-columns:1fr;gap:12px}
+}
+</style><style>
 /* ===== 統一專案窗口卡（由 layout.py 產生，勿手改） ===== */
 .uct{background:#F7F6F1;padding:70px 22px}
 .uct-head{text-align:center;margin-bottom:34px}
@@ -572,41 +594,7 @@ footer .disc{max-width:760px;margin:0 auto 10px;line-height:1.8;color:rgba(255,2
 </section>
 
 <!-- ================= IM ================= -->
-<section class="im">
-  <div class="wrap">
-    <div class="sec-head">
-      <div class="en" style="color:var(--gold-l)">INFORMATION MEMORANDUM</div>
-      <h2>完整銷售報告書　備索</h2>
-    </div>
-    <div class="im-grid">
-      <div class="im-item"><div class="ic">A</div><h4>土地明細</h4><p>完整地籍資料、分區結構與權屬說明</p></div>
-      <div class="im-item"><div class="ic">B</div><h4>查核文件</h4><p>分區證明・環境敏感 62 項・土壤地下水查核（辦理中）</p></div>
-      <div class="im-item"><div class="ic">C</div><h4>行情對標</h4><p>全台與在地成交案例完整分析</p></div>
-    </div>
 
-    <div class="im-feature">
-      <div class="badge">獨家研析</div>
-      <div class="ftop">
-        <h4>大肚大面積工業用地　成交個案完整分析</h4>
-        <span class="sub">RESEARCH REPORT</span>
-      </div>
-      <div class="desc">
-        市面上查得到的是「平均單價」，查不到的是<b>大面積整批交易究竟怎麼定價</b>。
-        本研析以全家、全聯兩筆指標成交為錨點，交叉比對實價登錄與公開資訊觀測站重大訊息，
-        還原大面積工業用地的價格形成邏輯——這是本案<b>唯一無法從公開管道取得</b>的一份資料。
-      </div>
-      <ul>
-        <li>兩筆指標成交的「當時取得價 × 同期行情位置」還原</li>
-        <li>大面積 vs 小筆交易的定價差異實證</li>
-        <li>九年僅五筆逾 1,500 坪成交的稀缺性驗證</li>
-        <li>2026 合理價格區間的完整推導過程</li>
-      </ul>
-      <div class="foot">非公開資料　｜　一對一提供　｜　來電或加 LINE 即可索取</div>
-    </div>
-    <div class="im-cta">
-        <div class="line1">本案採<em>預約制</em>提供資料與帶看，詳見下方專案窗口</div>
-      </div></div>
-</section>
 
 <!-- ================= CONTACT ================= -->
 
@@ -636,6 +624,37 @@ footer .disc{max-width:760px;margin:0 auto 10px;line-height:1.8;color:rgba(255,2
     if(e.key==='Escape')lbClose();if(e.key==='ArrowRight')show(i+1);if(e.key==='ArrowLeft')show(i-1);});
 })();
 </script>
+
+<section class="uim" id="im">
+  <div class="uim-in">
+    <div class="uim-head">
+      <div class="uim-en">INFORMATION MEMORANDUM</div>
+      <h2 class="uim-h2">完整銷售報告書　備索</h2>
+      
+    </div>
+    <div class="uim-grid"><div class="uim-item"><div class="ic">A</div><h4>土地明細</h4><p>完整地籍資料、分區結構與權屬說明</p></div><div class="uim-item"><div class="ic">B</div><h4>查核文件</h4><p>分區證明・環境敏感 62 項・土壤地下水查核（辦理中）</p></div><div class="uim-item"><div class="ic">C</div><h4>行情對標</h4><p>全台與在地成交案例完整分析</p></div></div>
+    <div class="im-feature">
+      <div class="badge">獨家研析</div>
+      <div class="ftop">
+        <h4>大肚大面積工業用地　成交個案完整分析</h4>
+        <span class="sub">RESEARCH REPORT</span>
+      </div>
+      <div class="desc">
+        市面上查得到的是「平均單價」，查不到的是<b>大面積整批交易究竟怎麼定價</b>。
+        本研析以全家、全聯兩筆指標成交為錨點，交叉比對實價登錄與公開資訊觀測站重大訊息，
+        還原大面積工業用地的價格形成邏輯——這是本案<b>唯一無法從公開管道取得</b>的一份資料。
+      </div>
+      <ul>
+        <li>兩筆指標成交的「當時取得價 × 同期行情位置」還原</li>
+        <li>大面積 vs 小筆交易的定價差異實證</li>
+        <li>九年僅五筆逾 1,500 坪成交的稀缺性驗證</li>
+        <li>2026 合理價格區間的完整推導過程</li>
+      </ul>
+      <div class="foot">非公開資料　｜　一對一提供　｜　來電或加 LINE 即可索取</div>
+    </div>
+    <div class="uim-note">本案採<em>預約制</em>提供資料與帶看，詳見下方專案窗口</div>
+  </div>
+</section>
 
 <section class="uct" id="contact">
   <div class="uct-head">
