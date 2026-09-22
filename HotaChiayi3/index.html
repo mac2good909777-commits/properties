@@ -243,6 +243,13 @@ html{-webkit-text-size-adjust:100%}
 img,svg,video{max-width:100%;height:auto}
 .tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 18px}
 .tbl-scroll>table{min-width:520px}
+/* 兩欄式規格表：手機上直接塞進畫面，不必左右滑 */
+.tbl-fit{overflow-x:visible}
+.tbl-fit>table{min-width:0;width:100%}
+@media(max-width:640px){
+  .tbl-fit>table th{white-space:normal;width:34%;padding-left:12px;padding-right:12px}
+  .tbl-fit>table td{padding-left:12px;padding-right:12px;word-break:break-word}
+}
 @media(max-width:640px){
   h1{line-height:1.28}
   h2{line-height:1.36}
@@ -395,7 +402,7 @@ img,svg,video{max-width:100%;height:auto}
     <h2>標的規格</h2>
     <div class="rule"></div>
     <div class="grid2">
-      <div class="tbl-scroll"><table>
+      <div class="tbl-scroll tbl-fit"><table>
         <tr><th>坐　落</th><td>嘉義縣大林鎮　大埔美園區三路</td></tr>
         <tr><th>使用分區</th><td><strong>工業區／丁種建築用地</strong></td></tr>
         <tr><th>土地面積</th><td><strong>30,171.97 ㎡　＝　9,127.02 坪</strong></td></tr>
@@ -403,7 +410,7 @@ img,svg,video{max-width:100%;height:auto}
         <tr><th>權屬結構</th><td>單一法人所有・權利範圍全部（無持分共有）</td></tr>
         <tr><th>交流道</th><td>國道 3 號梅山交流道　約 3 分鐘車程</td></tr>
       </table></div>
-      <div class="tbl-scroll"><table>
+      <div class="tbl-scroll tbl-fit"><table>
         <tr><th>建築完成</th><td>民國 110 年　（屋齡約 5 年）</td></tr>
         <tr><th>主要建材</th><td>鋼骨構造　＋　鋼筋混凝土（RC）</td></tr>
         <tr><th>廠房樓層</th><td><strong>地上 1 – 2 層　一樓樓高 7 公尺</strong></td></tr>

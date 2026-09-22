@@ -161,6 +161,13 @@ html{-webkit-text-size-adjust:100%}
 img,svg,video{max-width:100%;height:auto}
 .tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 18px}
 .tbl-scroll>table{min-width:520px}
+/* 兩欄式規格表：手機上直接塞進畫面，不必左右滑 */
+.tbl-fit{overflow-x:visible}
+.tbl-fit>table{min-width:0;width:100%}
+@media(max-width:640px){
+  .tbl-fit>table th{white-space:normal;width:34%;padding-left:12px;padding-right:12px}
+  .tbl-fit>table td{padding-left:12px;padding-right:12px;word-break:break-word}
+}
 @media(max-width:640px){
   h1{line-height:1.28}
   h2{line-height:1.36}
